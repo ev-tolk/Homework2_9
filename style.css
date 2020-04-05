@@ -1,0 +1,84 @@
+#bank{
+    background-image: url('./img/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#bank h1{
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+    color: rgba(0, 87, 66, 1);
+}
+
+#bank form{
+    padding-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: whitesmoke;
+    font-size: 25px;
+    background-color: rgba(0, 87, 66, 0.48);
+    padding-bottom: 50px;
+}
+
+#bank table .eur_usd{
+    margin-top: 38px;
+}
+
+#bank table .rub sup{
+    font-size: 20px;
+}
+
+#bank button{
+    margin-left: 42%;
+    margin-top: 25px;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    border: none;
+    background-color: rgba(153, 39, 170, 0.5);
+    color: cornsilk;
+}
+
+#convert{
+    background-color: rgba(130, 207, 227, 1);
+    height: 100vh;
+}
+
+#convert h1{
+    padding-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+#convert p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#convert form{
+    margin-left: 35%;
+    font-size: 20px;
+}
+
+#convert select{
+    padding: 10px 55px;
+    margin-top: 20px;
+    border: none;
+}
+
+#convert input{
+    padding: 11px 75px;
+    border: none;
+}
+
+#convert button{
+    padding: 11px 75px;
+    border: none;
+    margin-left: 41%;
+    margin-top: 100px;
+}

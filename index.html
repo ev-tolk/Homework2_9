@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="bank">
+        <h1>Курс валют на сегодня</h1>
+       <form>
+            
+        </form>
+        <button id="go">Перейти к конвертеру валют</button>
+    </div>
+    <div id="convert">
+        <h1>Конвертер валют</h1>
+        <p>Выберите нужные валюты из списка, введите имеющуюся сумму и нажмите enter</p>
+        <form>
+            <div id="before">
+                <select id="money1">
+                    <option value="byn">Белорусский рубль</option>
+                    <option value="usd">Доллар США</option>
+                    <option value="pln">Польский злотый</option>
+                    <option value="uah">Украинская гривна</option>
+                </select>
+                <input type="text" id="inpMoney" placeholder="" value="" >
+            </div>
+            <div id="after">
+                <select id="money2">
+                    <option value="byn">Белорусский рубль</option>
+                    <option value="usd">Доллар США</option>
+                    <option value="pln">Польский злотый</option>
+                    <option value="uah">Украинская гривна</option>
+                </select>
+                <input type="text" id="outpMoney" placeholder="" readonly>
+            </div>
+        </form>
+        <button id="main">Перейти к главной странице</button>
+    </div>
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
